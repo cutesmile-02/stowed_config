@@ -1,0 +1,22 @@
+[preferences]
+automatic_attach_outputs_relative_position = "none"
+
+[[group]]
+name = "4dce64073127ae6181d96adbfbfcced3 (Auto Generated)"
+preferred = false
+identifiers = ["4dce64073127ae6181d96adbfbfcced3"]
+primary_output = "4dce64073127ae6181d96adbfbfcced3"
+
+[[group.output]]
+identifier = "4dce64073127ae6181d96adbfbfcced3"
+width = 1366
+height = 768
+refresh = 60003
+x = 0
+y = 0
+scale = 1.0
+rotation = 0
+adaptive_sync = 0
+primary = true
+disabled = false
+

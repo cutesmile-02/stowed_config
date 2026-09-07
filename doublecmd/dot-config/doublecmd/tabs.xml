@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doublecmd>
+  <Tabs>
+    <OpenedTabs>
+      <Left>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>2</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="">/usr/lib/doublecmd/</Path>
+                  <Path Filename="Photos downloaded">/home/steph/Desktop/Documents to keep/</Path>
+                  <Path Filename="..">/home/steph/Desktop/Documents to keep/Photos downloaded/</Path>
+                  <Path Filename="PHOTOS">/home/steph/Desktop/Documents to keep/</Path>
+                  <Path Filename="..">/home/steph/Desktop/Documents to keep/PHOTOS/</Path>
+                  <Path Filename="phone camera backup">/home/steph/Desktop/Documents to keep/</Path>
+                  <Path Filename="My birthday">/home/steph/Desktop/Documents to keep/phone camera backup/</Path>
+                  <Path Filename="..">/home/steph/Desktop/Documents to keep/phone camera backup/My birthday/</Path>
+                  <Path Filename="..">/home/steph/Desktop/Documents to keep/phone camera backup/</Path>
+                  <Path Filename=".config">/home/steph/</Path>
+                  <Path Filename="">/home/steph/.config/</Path>
+                  <Path Filename="">/home/steph/Desktop/Work/</Path>
+                  <Path Filename="phone camera backup">/home/steph/Desktop/Documents to keep/</Path>
+                  <Path Filename="">/home/steph/Desktop/Documents to keep/phone camera backup/</Path>
+                  <Path Filename="">/home/steph/Desktop/Documents to keep/</Path>
+                  <Path Filename="..">/run/media/steph/KINGSTON/</Path>
+                  <Path Filename="..">/run/media/steph/</Path>
+                  <Path Filename="..">/run/media/</Path>
+                  <Path Filename="Downloads">/home/steph/</Path>
+                  <Path Filename="Colorful-Dark-Icons">/home/steph/Downloads/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Left>
+      <Right>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="thumbnails">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/usr/lib/doublecmd/</Path>
+                  <Path Filename="Nextcloud">/home/steph/</Path>
+                  <Path Filename="Penguins">/home/steph/Nextcloud/</Path>
+                  <Path Filename="tmp_mike">/home/steph/Nextcloud/Penguins/</Path>
+                  <Path Filename="..">/home/steph/Nextcloud/Penguins/tmp_mike/</Path>
+                  <Path Filename="tmp_mike">/home/steph/Nextcloud/Penguins/</Path>
+                  <Path Filename="..">/home/steph/Nextcloud/Penguins/tmp_mike/</Path>
+                  <Path Filename=".icons">/home/steph/</Path>
+                  <Path Filename="..">/home/steph/.icons/</Path>
+                </Paths>
+              </Entry>
+            </History>
+          </FileView>
+        </Tab>
+      </Right>
+    </OpenedTabs>
+  </Tabs>
+</doublecmd>

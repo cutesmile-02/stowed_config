@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doublecmd>
+  <History>
+    <Navigation>
+      <Item Value="/home/steph/Downloads/"/>
+      <Item Value="/home/steph/"/>
+      <Item Value="/home/steph/.icons/"/>
+      <Item Value="/run/media/steph/KINGSTON/"/>
+      <Item Value="/home/steph/Desktop/Documents to keep/"/>
+      <Item Value="/home/steph/Desktop/Documents to keep/phone camera backup/"/>
+      <Item Value="/home/steph/Desktop/Work/"/>
+      <Item Value="/home/steph/Nextcloud/Penguins/tmp_mike/"/>
+      <Item Value="/home/steph/Nextcloud/Penguins/"/>
+      <Item Value="/home/steph/.config/"/>
+      <Item Value="/home/steph/Nextcloud/"/>
+      <Item Value="/home/steph/Desktop/Documents to keep/phone camera backup/My birthday/"/>
+      <Item Value="/home/steph/Desktop/Documents to keep/PHOTOS/"/>
+      <Item Value="/home/steph/Desktop/Documents to keep/Photos downloaded/"/>
+    </Navigation>
+    <CommandLine/>
+    <FileMask/>
+    <VolumeSize/>
+    <CreateDirectories/>
+    <SearchText/>
+    <SearchTextPath/>
+    <ReplaceText/>
+    <ReplaceTextPath/>
+    <RenameNameMask/>
+    <RenameExtMask/>
+    <SearchDirectories/>
+    <SearchExcludeFiles/>
+    <SearchExcludeDirectories/>
+  </History>
+</doublecmd>

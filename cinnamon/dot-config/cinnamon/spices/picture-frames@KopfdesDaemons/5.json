@@ -1,0 +1,174 @@
+{
+    "layout": {
+        "type": "layout",
+        "pages": [
+            "image-page",
+            "frame-page"
+        ],
+        "image-page": {
+            "type": "page",
+            "title": "Image",
+            "sections": [
+                "image-general-section",
+                "image-alignment-section"
+            ]
+        },
+        "frame-page": {
+            "type": "page",
+            "title": "Frame",
+            "sections": [
+                "frame-shape-section",
+                "frame-border-section"
+            ]
+        },
+        "image-general-section": {
+            "type": "section",
+            "title": "General",
+            "keys": [
+                "image-path",
+                "size"
+            ]
+        },
+        "image-alignment-section": {
+            "type": "section",
+            "title": "Alignment",
+            "keys": [
+                "align-x",
+                "align-y"
+            ]
+        },
+        "frame-shape-section": {
+            "type": "section",
+            "title": "Shape",
+            "keys": [
+                "shape",
+                "waves-number",
+                "wave-depth",
+                "spikes-number",
+                "spikes-depth"
+            ]
+        },
+        "frame-border-section": {
+            "type": "section",
+            "title": "Border",
+            "keys": [
+                "show-border",
+                "border-color",
+                "border-width"
+            ]
+        }
+    },
+    "image-path": {
+        "type": "filechooser",
+        "default": "",
+        "description": "Image path",
+        "tooltip": "The path of the image.",
+        "allow-none": false,
+        "select-dir": false,
+        "value": "file:///home/steph/Desktop/Mike/May%2018%202026.jpg"
+    },
+    "size": {
+        "type": "scale",
+        "default": 250,
+        "min": 30,
+        "max": 800,
+        "step": 1,
+        "description": "Size",
+        "value": 269.0
+    },
+    "align-x": {
+        "type": "scale",
+        "description": "Horizontal alignment",
+        "default": 50,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "value": 50
+    },
+    "align-y": {
+        "type": "scale",
+        "description": "Vertical alignment",
+        "default": 50,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "value": 50
+    },
+    "shape": {
+        "type": "combobox",
+        "default": "wave",
+        "description": "Shape",
+        "options": {
+            "Circle": "circle",
+            "Square": "square",
+            "Star": "star",
+            "Wave": "wave",
+            "Heart": "heart"
+        },
+        "value": "heart"
+    },
+    "waves-number": {
+        "type": "scale",
+        "default": 10,
+        "min": 1,
+        "max": 20,
+        "step": 1,
+        "description": "Number of waves",
+        "dependency": "shape=wave",
+        "value": 10
+    },
+    "wave-depth": {
+        "type": "scale",
+        "default": 5,
+        "min": 1,
+        "max": 30,
+        "step": 1,
+        "description": "Depth of the waves",
+        "dependency": "shape=wave",
+        "value": 5
+    },
+    "spikes-number": {
+        "type": "scale",
+        "default": 10,
+        "min": 2,
+        "max": 30,
+        "step": 1,
+        "description": "Number of spikes",
+        "dependency": "shape=star",
+        "value": 10
+    },
+    "spikes-depth": {
+        "type": "scale",
+        "default": 15,
+        "min": 1,
+        "max": 60,
+        "step": 1,
+        "description": "Depth of the spikes",
+        "dependency": "shape=star",
+        "value": 15
+    },
+    "show-border": {
+        "type": "checkbox",
+        "default": true,
+        "description": "Show border",
+        "value": true
+    },
+    "border-color": {
+        "type": "colorchooser",
+        "default": "rgba(33, 170, 70, 0.5)",
+        "description": "Border color",
+        "dependency": "show-border",
+        "value": "rgb(255,190,111)"
+    },
+    "border-width": {
+        "type": "scale",
+        "default": 15,
+        "min": 1,
+        "max": 30,
+        "step": 1,
+        "description": "Border width",
+        "dependency": "show-border",
+        "value": 5.0
+    },
+    "__md5__": "2a2735528c11ab13c2489f89f6e462b0"
+}
